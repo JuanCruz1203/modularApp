@@ -1,0 +1,129 @@
+.home-container {
+    background-color: #ffffff;
+    min-height: 100vh; 
+    min-width: 100vw;
+    display: flex; 
+  }
+
+
+  .main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .products-section {
+    padding: 2rem;
+    flex: 1;
+  }
+  
+  .products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .products-header h1 {
+    font-size: 2rem;
+    color: #5b21b6; /* Violeta */
+  }
+  
+  .add-button {
+    background-color: #5b21b6;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-button:hover {
+    background-color: #7c3aed;
+  }
+
+  .w-64 {
+    width: 15rem;
+    background-color: #5b21b6;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+
+  
+  .p-2 {
+    padding: .5rem;
+    border-radius: .5rem;
+    margin-top: 3rem;
+    margin-left: 2.4rem;
+    background-color: #5b21b6;
+    color: #ffffff;
+    border: none;
+  }
+
+  .p-2--p {
+    margin: 2rem;
+    padding: 1rem 3.5rem;
+    color: #979797;
+  }
+
+  .p-2--p-1 {
+    padding: .7rem;
+    border-radius: .4rem;
+    border: none;
+    width: 40%;
+    margin: .22rem;
+
+
+  }
+
+  .p-2::placeholder {
+    color: #fffffff5;
+  }
+
+  .mb-4 {
+    list-style: none;
+    padding: 1rem;
+
+  }
+
+  .nav_bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2.5rem;
+    margin-top: 1.75rem;
+    background-color: transparent;
+}
+
+
+.mb-4 a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+
+
+ /* imagen pa  */ 
+
+ .text-center {
+    height: 2rem;
+    filter: invert(1) brightness(100%);
+    margin-top: 1rem;
+    margin-left: .65rem;
+
+  }
+
+.font-bold {
+  font-size: 1rem;
+  margin-top: .6rem;
+}
